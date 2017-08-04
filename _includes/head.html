@@ -3,11 +3,13 @@
 
 <head>
   <meta charset="utf-8">
+  {% if site.enforce_ssl %}
   <script type="text/javascript">
     var host = "{{ site.enforce_ssl }}";
     if ((host == window.location.host) && (window.location.protocol != "https:"))
       window.location.protocol = "https";
   </script>
+  {% endif %}
   <meta name="viewport" content="width=device-width, minimum-scale=1.0">
 
   <style>

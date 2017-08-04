@@ -2,7 +2,7 @@
 title: Office Football
 email: max@maxquattromani.com
 url: https://officefootball.club
-enforce_ssl: officefootball.club
+enforce_ssl:
 description:
 baseurl:
 logo: "logo.svg"
