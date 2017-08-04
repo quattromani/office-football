@@ -1,0 +1,34 @@
+---
+layout: thanks
+title: Thanks!
+permalink: "/thanks/"
+class: officefootball
+description: 'Thanks for submitting you picks!'
+---
+
+<h3>Got it! Thanks for submitting.</h3>
+<h4>You'll recieve an email with a copy/confirmation of your picks, or you can <a href="https://docs.google.com/spreadsheets/d/1_w6b0iUDaUbKD6qLD52BcRG1pIMh90P-Av4o0w5TAB8/pubhtml" target="_blank" rel="noopener noreferrer">see all the picks here</a> (this sheet updates every 5 minutes, be patient).</h4>
+
+<hr>
+
+<h4>If you have any feedback, suggestions, or improvement requests for officefootball.club, please let me know and I will do my very best to keep making it better throughout the season!</h4>
+
+<h4>Thanks,<br><img src="/images/signature2.png" alt="Max Quattromani"></h4>
+
+<hr>
+
+<form action="//formspree.io/{{ site.formspree-verify }}" method="POST">
+  <div class="row">
+    <div class="formitem email">
+      <label for="email" class="required">Email Address:</label>
+      <input id="email" type="email" name="_replyto" pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}" placeholder="milk@cereal.com" autocomplete="email" tabindex="1" required>
+    </div>
+    <div class="formitem">
+      <label for="message" class="required"><i class="fa fa-comment"></i> Feedback:</label>
+      <textarea name="message" rows="5" required></textarea>
+    </div>
+    <input type="hidden" name="_next" value="http://officefootball.club/thanks_again/" />
+    <input type="text" name="_gotcha" style="display:none">
+    <button class="btn btn-primary" type="submit">SEND</button>
+  </div>
+</form>

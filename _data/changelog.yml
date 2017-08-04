@@ -1,0 +1,47 @@
+- version: 1.0.1
+  description: "Copy of picks sent to submitter"
+  requestor: rhagerty
+
+- version: 1.0.2
+  description: "Added Season Leaderboard page"
+  requestor: mquattromani
+
+- version: 1.0.3
+  description: "Simple Nav to support new pages"
+  requestor: mquattromani
+
+- version: 1.0.4
+  description: "Better name regex"
+  requestor: mquattromani
+
+- version: 1.0.5
+  description: "Route post-submision to leaderboard"
+  requestor: mquattromani
+
+- version: 1.0.6
+  description: "Email Subject includes Week Number"
+  requestor: mquattromani
+
+- version: 1.1.0
+  description: "Added TV Station listing"
+  requestor: mquattromani
+
+- version: 1.1.1
+  description: "Added localstorage for name and email address"
+  requestor: mquattromani
+
+- version: 1.1.2
+  description: "Disable games at start time"
+  requestor: mquattromani
+
+- version: 1.1.3
+  description: "added 'no-cache' to force updates"
+  requestor: mquattromani
+
+- version: 1.1.4
+  description: "added quarters to scores page"
+  requestor: mquattromani
+
+- version: 1.1.5
+  description: "season leaderboard reflects record"
+  requestor: mquattromani

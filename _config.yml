@@ -1,0 +1,98 @@
+# Site settings
+title: Office Football
+email: max@maxquattromani.com
+url: https://officefootball.club
+enforce_ssl: officefootball.club
+description:
+baseurl:
+logo: "logo.svg"
+version: 1.1.6
+url: ""
+author: "Max Quattromani"
+
+# Build settings
+jquery-version: 1.12.4
+
+# Fontawesome
+fontawesome-id: 4aa71f0649
+
+# Included Plugins (previously gems)
+plugins: [jekyll-admin, jekyll-paginate]
+
+# Writing
+markdown: kramdown
+kramdown:
+  input: GFM # Enable GitHub Flavored Markdown (fenced code blocks)
+  hard_wrap: false
+
+highlighter: rouge
+
+# Use pages inside the /_pages folder
+include: ['_pages']
+
+# remove unnecessary strings from URLs
+permalink: /:title/
+
+# When pagination is required, set intervals
+paginate: 5
+
+# Don't include in the build
+exclude: ['node_modules']
+
+# Googles
+google-verify: xuJAH--DXVZ2bmG8f2SkpOly5MqSFLPzHdoON4hYN4E
+google-analytics: false
+google-analytics-id: UA-50387096-9
+google-maps-javascript-api-key:
+
+# Manifest
+manifest_lang: en
+manifest_name:
+manifest_short_name:
+manifest_description:
+manifest_background_color:
+manifest_theme_color:
+manifest_display: browser
+manifest_orientation:
+
+# formspree
+formspree-verify: xyydnbax
+
+# Page-type Defaults
+defaults:
+-
+  scope:
+    path: ""
+    type: "posts"
+  values:
+    layout: "post"
+
+-
+  scope:
+    path: ""
+    type: "pages"
+  values:
+    layout: "default"
+
+# Phyical Attributes
+map:
+  address: ''
+  city: ''
+  state: ''
+  zip: ''
+  latitude: ''
+  longitude: ''
+
+phone: ''
+
+# Socials
+social:
+  facebook:
+  twitter:
+  linkedin:
+  snapchat:
+  github:
+  disqus:
+
+# Turn this to "false" for launch
+in-dev: true

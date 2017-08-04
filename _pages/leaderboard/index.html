@@ -1,0 +1,89 @@
+---
+layout: leaderboard
+title: Leaderboard
+permalink: "/leaderboard/"
+class: officefootball leaderboard
+description: Each week we'll keep track of who's leading for the season on the leaderboard page.
+categories: 'Office Football Leaderboard'
+---
+
+<div class="trophy"></div>
+
+<hr>
+
+<span class="weekly-pot">This Week's Pot: </span>
+<br>
+<span class="season-pot">Season Pot: </span>
+
+<!-- <hr>
+
+<nav class="leaderboard-quicklinks">
+  <ul>
+    <li>
+      <a class="btn" href="#weekly-leaders">See Weekly Leaders</a>
+    </li>
+    <li>
+      <a class="btn" href="#season-leaders">See Season Leaders</a>
+    </li>
+  </ul>
+</nav> -->
+
+<hr>
+
+<div class="tab-frame">
+  <input type="radio" checked name="tab" id="tab1">
+  <label for="tab1">See Weekly Leaders</label>
+
+  <input type="radio" name="tab" id="tab2">
+  <label for="tab2">See Season Leaders</label>
+
+  <div class="tab">
+    <h4 id="weekly-leaders" class="weekly-total"></h4>
+
+    <table id="weekly-leaderboard">
+      <tr>
+        <th>
+          <span class="rank">#</span>
+          <span class="player">PLAYER</span>
+          <span class="total">WINS</span>
+        </th>
+      </tr>
+    </table>
+  </div>
+  <div class="tab">
+    <h4 id="season-leaders" class="season-total">Season Leaders</h4>
+
+    <table id="season-leaderboard">
+      <tr>
+        <th>
+          <span class="rank">#</span>
+          <span class="player">PLAYER</span>
+          <span class="total">RECORD</span>
+        </th>
+      </tr>
+    </table>
+  </div>
+</div>
+
+<hr>
+
+<h4>If you have any feedback, suggestions, or improvement requests for officefootball.club, please let me know and I will do my very best to keep making it better throughout the season!</h4>
+
+<hr>
+
+<form action="//formspree.io/{{ site.formspree-verify }}" method="POST">
+  <div class="row">
+    <div class="formitem email">
+      <label for="email" class="required">Email Address:</label>
+      <input id="email" type="email" name="_replyto" pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}" placeholder="milk@cereal.com" autocomplete="email" tabindex="1" required>
+    </div>
+    <div class="formitem">
+      <label for="message" class="required">Feedback:</label>
+      <textarea name="message" rows="5" tabindex="2" required></textarea>
+    </div>
+    <input type="hidden" name="_next" value="http://officefootball.club/thanks_again/" />
+    <input type="text" name="_gotcha" style="display:none">
+    <button class="btn btn-primary" type="submit">Send</button>
+  </div>
+</form>
+
