@@ -1,0 +1,8 @@
+- title: "Play"
+  url: "/"
+- title: "View Picks"
+  url: "https://docs.google.com/spreadsheets/d/1_w6b0iUDaUbKD6qLD52BcRG1pIMh90P-Av4o0w5TAB8/pubhtml"
+- title: "Leaderboard"
+  url: "/leaderboard/"
+- title: "Scores"
+  url: "/scores/"
