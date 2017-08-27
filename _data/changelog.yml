@@ -45,3 +45,7 @@
 - version: 1.1.5
   description: "season leaderboard reflects record"
   requestor: mquattromani
+
+- version: 1.1.5
+  description: "PayPal payment option added"
+  requestor: mquattromani
