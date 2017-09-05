@@ -7,39 +7,20 @@ description: 'A charming little web application for picking NFL football games i
 categories: 'Office Football Pool'
 ---
 
-<form action="https://formspree.io/{{ site.formspree-verify }}" method="POST" id="weekly">
-  <h1></h1>
-
-  <hr>
-
-  <!-- matches -->
-  <fieldset>
-    <ul class="matches">
-    </ul>
-  </fieldset>
-  <!-- /.matches -->
-
-  <div class="hidden"></div>
-  <div class="row">
-    <div class="formitem name">
-      <label for="name" class="required">Name</label>
-      <input id="name" type="text" name="name" pattern="[a-zA-Z][a-zA-Z ]{2,}" placeholder="Name" autocomplete="name" tabindex="1" required>
-    </div>
-    <div class="formitem email">
-      <label for="email" class="required">Email Address</label>
-      <input id="email" type="email" name="_replyto" placeholder="milk@cereal.com" autocomplete="email" tabindex="2" required>
-    </div>
-  </div>
-
-  <p>By submitting your picks, you acknowledge that you will pay into the pool as agreed.</p>
-
-  <!-- Form Housekeeping -->
-  <input type="hidden" id="copy" name="_cc" value="" />
-  <input id="subject" type="hidden" name="_subject" value="New Picks!">
-  <input type="hidden" name="_next" value="{{ site.url }}/thanks/">
-  <input type="text" name="_gotcha" style="display:none">
-
-  <!-- Submit it -->
-  <button class="btn" type="submit" name="submit" value="submit">SUBMIT &amp; Pay</button>
-  <button type="reset" name="reset" value="reset">RESET</button>
-</form>
+<form id='foo'>
+      <p>
+        <label>Name</label>
+        <input id='name' name='name' type='text'>
+      </p><p>
+        <label>Email Address</label>
+        <input id='email' name='email' type='email'>
+      </p><p>
+        <label>Phone Number</label>
+        <input id='phone' name='phone' type='tel'>
+      </p><p>
+        <label>Message</label>
+        <textarea id='message' name='message' rows='5'></textarea>
+      </p>
+        <div id='success'></div>
+        <button type='submit'>Send</button>
+    </form>
