@@ -51,7 +51,11 @@
 
 </head>
 
-<body>
+ {% if page.team %}
+<body class="{{ page.team }}">
+{% else %}
+  <body>
+{% endif %}
   <a href="#content" class="skip-navigation visually-hidden">Skip to main content</a>
   {% include browser-upgrade.html %}
 
