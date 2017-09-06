@@ -1,0 +1,43 @@
+---
+layout: default
+title: Home
+permalink: "/"
+class: officefootball
+description: 'A charming little web application for picking NFL football games in your office football pool. This is currently a personal project being used by one office.'
+categories: 'Office Football Pool'
+---
+
+<form action="https://formspree.io/{{ site.formspree-verify }}" method="POST" id="gavin-weekly">
+  <h1></h1>
+
+  <hr>
+
+  <!-- matches -->
+  <fieldset>
+    <ul class="matches">
+    </ul>
+  </fieldset>
+  <!-- /.matches -->
+
+  <div class="hidden"></div>
+  <div class="row">
+    <div class="formitem name">
+      <label for="name" class="required">Name</label>
+      <input id="name" type="text" name="name" pattern="[a-zA-Z][a-zA-Z ]{2,}" placeholder="Name" autocomplete="name" tabindex="1" required>
+    </div>
+    <div class="formitem email">
+      <label for="email" class="required">Email Address</label>
+      <input id="email" type="email" name="_replyto" placeholder="milk@cereal.com" autocomplete="email" tabindex="2" required>
+    </div>
+  </div>
+
+  <p>Good Luck!</p>
+
+  <!-- Form Housekeeping -->
+  <input type="hidden" id="copy" name="_cc" value="" />
+  <input id="subject" type="hidden" name="_subject" value="New Picks!">
+  <input type="text" name="_gotcha" style="display:none">
+
+  <!-- Submit it -->
+  <button class="btn" type="submit" value="submit">SUBMIT &amp; Pay</button>
+</form>
