@@ -5,7 +5,7 @@
         <img itemprop="logo" src="{{ site.baseurl }}/images/{{ site.logo }}" alt="{{ site.title }} logo">
       </a>
       {% if page.owner %}
-      <h2>Brought to you by <a href="http://www.gavinekstrom.com/">{{ page.owner }}</a></h2>
+      <h2>Brought to you by <a href="{{ page.owner-site }}">{{ page.owner }}</a></h2>
       {% endif %}
     </div>
     {% include nav.html %}
