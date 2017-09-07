@@ -1,0 +1,39 @@
+---
+layout: thanks
+title: Thanks!
+permalink: "/team-tuttle/thanks/"
+class: officefootball
+description: 'Thanks for submitting you picks!'
+---
+
+<h3>Got it! Thanks for submitting.</h3>
+
+<hr>
+
+<p>In order for your picks to count for the week - your payment must be received no later than Sunday night of the current week. If you'd like to prepay for the season (at any time) instead of paying each week - <a href="mailto:{{ site.email }}?Subject=Football" target="_top">send me a note</a> and we can take care of that.</p>
+
+<p>Payments are made through PayPal. Winners will be paid out from PayPal. Thanks to our sponsor - <a href="https://qoppa.co" style="color: #ef272d;">Qoppa Web Design and Development</a> - for sponsoring this site and covering all transaction fees for payments.</p>
+
+<hr>
+
+<p>If you have any feedback, suggestions, or improvement requests for <a href="/">officefootball.club</a>, please let me know and I will do my very best to keep making it better throughout the season!</p>
+
+<p>Thanks,<br><img src="/images/signature2.png" alt="Max Quattromani"></p>
+
+<hr>
+
+<form action="https://formspree.io/{{ site.formspree-verify }}" method="POST">
+  <div class="row">
+    <div class="formitem email">
+      <label for="email" class="required">Email Address:</label>
+      <input id="email" type="email" name="email" pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}" placeholder="milk@cereal.com" autocomplete="email" tabindex="1" required>
+    </div>
+    <div class="formitem">
+      <label for="message" class="required"><i class="fa fa-comment"></i> Feedback:</label>
+      <textarea name="message" rows="5" required></textarea>
+    </div>
+    <input type="hidden" name="_next" value="https://officefootball.club/thanks_again/" />
+    <input type="text" name="_gotcha" style="display:none">
+    <button class="btn btn-primary" type="submit">SEND</button>
+  </div>
+</form>
