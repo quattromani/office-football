@@ -1074,304 +1074,353 @@
   "week": 4,
   "game_days": [
     {
-      "date": "2017-09-29",
+      "date": "2017-09-28",
       "matches": [
         {
           "id": "49",
-          "timestamp": "Thu, 29 Sep 2017 20:25:00 -0400",
-          "tv": "NFL",
+          "timestamp": "Thu, 28 Sep 2017 20:25:00 -0400",
+          "tv": "CBS",
           "away": {
-            "id": "15",
-            "abbr": "mia",
-            "slug": "miami-dolphins",
-            "name": "Miami",
-            "nick": "Dolphins"
+            "id": "3",
+            "abbr": "chi",
+            "slug": "chicago-bears",
+            "name": "Chicago",
+            "nick": "Bears",
+            "stadium": "Soldier Field"
           },
           "home": {
-            "id": "4",
-            "abbr": "cin",
-            "slug": "cincinnati-bengals",
-            "name": "Cincinnati",
-            "nick": "Bengals"
+            "id": "9",
+            "abbr": "gb",
+            "slug": "green-bay-packers",
+            "name": "Green Bay",
+            "nick": "Packers",
+            "stadium": "Lambeau Field"
           }
         }
       ]
     },
     {
-      "date": "2017-10-02",
+      "date": "2017-10-01",
       "matches": [
         {
           "id": "50",
-          "timestamp": "Sun, 02 Oct 2017 09:30:00 -0400",
+          "timestamp": "Sun, 01 Oct 2017 09:30:00 -0400",
+          "tv": "FOX",
+          "away": {
+            "id": "18",
+            "abbr": "no",
+            "slug": "new-orleans-saints",
+            "name": "New Orleans",
+            "nick": "Saints",
+            "stadium": "Mercedes-Benz Superdome"
+          },
+          "home": {
+            "id": "15",
+            "abbr": "mia",
+            "slug": "miami-dolphins",
+            "name": "Miami",
+            "nick": "Dolphins",
+            "stadium": "Hard Rock Stadium"
+          }
+        },
+        {
+          "id": "51",
+          "timestamp": "Sun, 01 Oct 2017 13:00:00 -0400",
+          "tv": "FOX",
+          "away": {
+            "id": "29",
+            "abbr": "car",
+            "slug": "carolina-panthers",
+            "name": "Carolina",
+            "nick": "Panthers",
+            "stadium": "Bank of America Stadium"
+          },
+          "home": {
+            "id": "17",
+            "abbr": "ne",
+            "slug": "new-england-patriots",
+            "name": "New England",
+            "nick": "Patriots",
+            "stadium": "Gillette Stadium"
+          }
+        },
+        {
+          "id": "52",
+          "timestamp": "Sun, 01 Oct 2017 13:00:00 -0400",
           "tv": "CBS",
+          "away": {
+            "id": "30",
+            "abbr": "jax",
+            "slug": "jacksonville-jaguars",
+            "name": "Jacksonville",
+            "nick": "Jaguars",
+            "stadium": "EverBank Field"
+          },
+          "home": {
+            "id": "20",
+            "abbr": "nyj",
+            "slug": "new-york-jets",
+            "name": "NY Jets",
+            "nick": "Jets",
+            "stadium": "MetLife Stadium"
+          }
+        },
+        {
+          "id": "53",
+          "timestamp": "Sun, 01 Oct 2017 13:00:00 -0400",
+          "tv": "CBS",
+          "away": {
+            "id": "2",
+            "abbr": "buf",
+            "slug": "buffalo-bills",
+            "name": "Buffalo",
+            "nick": "Bills",
+            "stadium": "New Era Field"
+          },
+          "home": {
+            "id": "1",
+            "abbr": "atl",
+            "slug": "atlanta-falcons",
+            "name": "Atlanta",
+            "nick": "Falcons",
+            "stadium": "Mercedes-Benz Stadium"
+          }
+        },
+        {
+          "id": "54",
+          "timestamp": "Sun, 01 Oct 2017 13:00:00 -0400",
+          "tv": "CBS",
+          "away": {
+            "id": "23",
+            "abbr": "pit",
+            "slug": "pittsburgh-steelers",
+            "name": "Pittsburgh",
+            "nick": "Steelers",
+            "stadium": "Heinz Field"
+          },
+          "home": {
+            "id": "31",
+            "abbr": "bal",
+            "slug": "baltimore-ravens",
+            "name": "Baltimore",
+            "nick": "Ravens",
+            "stadium": "M&T Bank Stadium"
+          }
+        },
+        {
+          "id": "55",
+          "timestamp": "Sun, 01 Oct 2017 13:00:00 -0400",
+          "tv": "CBS",
+          "away": {
+            "id": "4",
+            "abbr": "cin",
+            "slug": "cincinnati-bengals",
+            "name": "Cincinnati",
+            "nick": "Bengals",
+            "stadium": "Paul Brown Stadium"
+          },
+          "home": {
+            "id": "5",
+            "abbr": "cle",
+            "slug": "cleveland-browns",
+            "name": "Cleveland",
+            "nick": "Browns",
+            "stadium": "FirstEnergy Stadium"
+          }
+        },
+        {
+          "id": "56",
+          "timestamp": "Sun, 01 Oct 2017 13:00:00 -0400",
+          "tv": "FOX",
+          "away": {
+            "id": "8",
+            "abbr": "det",
+            "slug": "detroit-lions",
+            "name": "Detroit",
+            "nick": "Lions",
+            "stadium": "Ford Field"
+          },
+          "home": {
+            "id": "16",
+            "abbr": "min",
+            "slug": "minnesota-vikings",
+            "name": "Minnesota",
+            "nick": "Vikings",
+            "stadium": "U.S. Bank Stadium"
+          }
+        },
+        {
+          "id": "57",
+          "timestamp": "Sun, 01 Oct 2017 13:00:00 -0400",
+          "tv": "FOX",
+          "away": {
+            "id": "14",
+            "abbr": "la",
+            "slug": "la-rams",
+            "name": "LA Rams",
+            "nick": "Rams",
+            "stadium": "Los Angeles Memorial Coliseum"
+          },
+          "home": {
+            "id": "6",
+            "abbr": "dal",
+            "slug": "dallas-cowboys",
+            "name": "Dallas",
+            "nick": "Cowboys",
+            "stadium": "AT&T Stadium"
+          }
+        },
+        {
+          "id": "58",
+          "timestamp": "Sun, 01 Oct 2017 13:00:00 -0400",
+          "tv": "CBS",
+          "away": {
+            "id": "10",
+            "abbr": "ten",
+            "slug": "tennessee-titans",
+            "name": "Tennessee",
+            "nick": "Titans",
+            "stadium": "Nissan Stadium"
+          },
+          "home": {
+            "id": "32",
+            "abbr": "hou",
+            "slug": "houston-texans",
+            "name": "Houston",
+            "nick": "Texans",
+            "stadium": "NRG Stadium"
+          }
+        },
+        {
+          "id": "59",
+          "timestamp": "Sun, 01 Oct 2017 16:05:00 -0400",
+          "tv": "FOX",
+          "away": {
+            "id": "25",
+            "abbr": "sf",
+            "slug": "san-francisco-49ers",
+            "name": "San Francisco",
+            "nick": "49ers",
+            "stadium": "Levi's Stadium"
+          },
+          "home": {
+            "id": "22",
+            "abbr": "ari",
+            "slug": "arizona-cardinals",
+            "name": "Arizona",
+            "nick": "Cardinals",
+            "stadium": "University of Phoenix Stadium"
+          }
+        },
+        {
+          "id": "60",
+          "timestamp": "Sun, 01 Oct 2017 16:05:00 -0400",
+          "tv": "FOX",
+          "away": {
+            "id": "19",
+            "abbr": "nyg",
+            "slug": "new-york-giants",
+            "name": "NY Giants",
+            "nick": "Giants",
+            "stadium": "MetLife Stadium"
+          },
+          "home": {
+            "id": "27",
+            "abbr": "tb",
+            "slug": "tampa-bay-buccaneers",
+            "name": "Tampa Bay",
+            "nick": "Buccaneers",
+            "stadium": "Raymond James Stadium"
+          }
+        },
+        {
+          "id": "61",
+          "timestamp": "Sun, 01 Oct 2017 16:05:00 -0400",
+          "tv": "FOX",
+          "away": {
+            "id": "21",
+            "abbr": "phi",
+            "slug": "philadelphia-eagles",
+            "name": "Philadelphia",
+            "nick": "Eagles",
+            "stadium": "Lincoln Financial Field"
+          },
+          "home": {
+            "id": "24",
+            "abbr": "sd",
+            "slug": "los-angles-chargers",
+            "name": "Los Angeles Chargers",
+            "nick": "Chargers",
+            "stadium": "StubHub Center"
+          }
+        },
+        {
+          "id": "62",
+          "timestamp": "Sun, 01 Oct 2017 16:25:00 -0400",
+          "tv": "CBS",
+          "away": {
+            "id": "13",
+            "abbr": "oak",
+            "slug": "oakland-raiders",
+            "name": "Oakland",
+            "nick": "Raiders",
+            "stadium": "Oakland–Alameda County Coliseum"
+          },
+          "home": {
+            "id": "7",
+            "abbr": "den",
+            "slug": "denver-broncos",
+            "name": "Denver",
+            "nick": "Broncos",
+            "stadium": "Sports Authority Field at Mile High"
+          }
+        },
+        {
+          "id": "63",
+          "timestamp": "Sun, 01 Oct 2017 20:30:00 -0400",
+          "tv": "NBC",
           "away": {
             "id": "11",
             "abbr": "ind",
             "slug": "indianapolis-colts",
             "name": "Indianapolis",
-            "nick": "Colts"
+            "nick": "Colts",
+            "stadium": "Lucas Oil Stadium"
           },
           "home": {
-           "id": "30",
-           "abbr": "jax",
-           "slug": "jacksonville-jaguars",
-           "name": "Jacksonville",
-           "nick": "Jaguars"
-         }
-       },
-       {
-        "id": "51",
-        "timestamp": "Sun, 02 Oct 2017 13:00:00 -0400",
-        "tv": "CBS",
-        "away": {
-          "id": "10",
-          "abbr": "ten",
-          "slug": "tennessee-titans",
-          "name": "Tennessee",
-          "nick": "Titans"
-        },
-        "home": {
-          "id": "32",
-          "abbr": "hou",
-          "slug": "houston-texans",
-          "name": "Houston",
-          "nick": "Texans"
+            "id": "26",
+            "abbr": "sea",
+            "slug": "seattle-seahawks",
+            "name": "Seattle",
+            "nick": "Seahawks",
+            "stadium": "CenturyLink Field"
+          }
         }
-      },
-      {
-        "id": "52",
-        "timestamp": "Sun, 02 Oct 2017 13:00:00 -0400",
-        "tv": "CBS",
-        "away": {
-          "id": "5",
-          "abbr": "cle",
-          "slug": "cleveland-browns",
-          "name": "Cleveland",
-          "nick": "Browns"
-        },
-        "home": {
-          "id": "28",
-          "abbr": "wsh",
-          "slug": "washington-redskins",
-          "name": "Washington",
-          "nick": "Redskins"
-        }
-      },
-      {
-        "id": "53",
-        "timestamp": "Sun, 02 Oct 2017 13:00:00 -0400",
-        "tv": "FOX",
-        "away": {
-          "id": "26",
-          "abbr": "sea",
-          "slug": "seattle-seahawks",
-          "name": "Seattle",
-          "nick": "Seahawks"
-        },
-        "home": {
-          "id": "20",
-          "abbr": "nyj",
-          "slug": "new-york-jets",
-          "name": "NY Jets",
-          "nick": "Jets"
-
-        }
-      },
-      {
-        "id": "54",
-        "timestamp": "Sun, 02 Oct 2017 13:00:00 -0400",
-        "tv": "CBS",
-        "away": {
-          "id": "2",
-          "abbr": "buf",
-          "slug": "buffalo-bills",
-          "name": "Buffalo",
-          "nick": "Bills"
-        },
-        "home": {
-          "id": "17",
-          "abbr": "ne",
-          "slug": "new-england-patriots",
-          "name": "New England",
-          "nick": "Patriots"
-        }
-      },
-      {
-        "id": "55",
-        "timestamp": "Sun, 02 Oct 2017 13:00:00 -0400",
-        "tv": "FOX",
-        "away": {
-          "id": "29",
-          "abbr": "car",
-          "slug": "carolina-panthers",
-          "name": "Carolina",
-          "nick": "Panthers"
-        },
-        "home": {
-          "id": "1",
-          "abbr": "atl",
-          "slug": "atlanta-falcons",
-          "name": "Atlanta",
-          "nick": "Falcons"
-        }
-      },
-      {
-        "id": "56",
-        "timestamp": "Sun, 02 Oct 2017 13:00:00 -0400",
-        "tv": "CBS",
-        "away": {
-          "id": "13",
-          "abbr": "oak",
-          "slug": "oakland-raiders",
-          "name": "Oakland",
-          "nick": "Raiders"
-        },
-        "home": {
-          "id": "31",
-          "abbr": "bal",
-          "slug": "baltimore-ravens",
-          "name": "Baltimore",
-          "nick": "Ravens"
-        }
-      },
-      {
-        "id": "57",
-        "timestamp": "Sun, 02 Oct 2017 16:05:00 -0400",
-        "tv": "FOX",
-        "away": {
-          "id": "8",
-          "abbr": "det",
-          "slug": "detroit-lions",
-          "name": "Detroit",
-          "nick": "Lions"
-        },
-        "home": {
-          "id": "3",
-          "abbr": "chi",
-          "slug": "chicago-bears",
-          "name": "Chicago",
-          "nick": "Bears"
-        }
-      },
-      {
-        "id": "58",
-        "timestamp": "Sun, 02 Oct 2017 16:05:00 -0400",
-        "tv": "CBS",
-        "away": {
-          "id": "7",
-          "abbr": "den",
-          "slug": "denver-broncos",
-          "name": "Denver",
-          "nick": "Broncos"
-        },
-        "home": {
-          "id": "27",
-          "abbr": "tb",
-          "slug": "tampa-bay-buccaneers",
-          "name": "Tampa Bay",
-          "nick": "Buccaneers"
-        }
-      },
-      {
-        "id": "59",
-        "timestamp": "Sun, 02 Oct 2017 16:25:00 -0400",
-        "tv": "FOX",
-        "away": {
-          "id": "14",
-          "abbr": "la",
-          "slug": "la-rams",
-          "name": "LA Rams",
-          "nick": "Rams"
-        },
-        "home": {
-          "id": "22",
-          "abbr": "ari",
-          "slug": "arizona-cardinals",
-          "name": "Arizona",
-          "nick": "Cardinals"
-
-        }
-      },
-      {
-        "id": "60",
-        "timestamp": "Sun, 02 Oct 2017 16:25:00 -0400",
-        "tv": "FOX",
-        "away": {
-          "id": "18",
-          "abbr": "no",
-          "slug": "new-orleans-saints",
-          "name": "New Orleans",
-          "nick": "Saints"
-        },
-        "home": {
-          "id": "24",
-          "abbr": "sd",
-          "slug": "san-diego-chargers",
-          "name": "San Diego",
-          "nick": "Chargers"
-        }
-      },
-      {
-        "id": "61",
-        "timestamp": "Sun, 02 Oct 2017 16:25:00 -0400",
-        "tv": "FOX",
-        "away": {
-          "id": "6",
-          "abbr": "dal",
-          "slug": "dallas-cowboys",
-          "name": "Dallas",
-          "nick": "Cowboys"
-        },
-        "home": {
-          "id": "25",
-          "abbr": "sf",
-          "slug": "san-francisco-49ers",
-          "name": "San Francisco",
-          "nick": "49ers"
-        }
-      },
-      {
-        "id": "62",
-        "timestamp": "Sun, 02 Oct 2017 20:30:00 -0400",
-        "tv": "NBC",
-        "away": {
-          "id": "12",
-          "abbr": "kc",
-          "slug": "kansas-city-chiefs",
-          "name": "Kansas City",
-          "nick": "Chiefs"
-        },
-        "home": {
-          "id": "23",
-          "abbr": "pit",
-          "slug": "pittsburgh-steelers",
-          "name": "Pittsburgh",
-          "nick": "Steelers"
-        }
-      }
-    ]
+      ]
 },
 {
-  "date": "2017-10-03",
+  "date": "2017-10-02",
   "matches": [
     {
-      "id": "63",
+      "id": "64",
       "last": true,
-      "timestamp": "Mon, 03 Oct 2017 20:30:00 -0400",
+      "timestamp": "Mon, 02 Oct 2017 20:30:00 -0400",
       "tv": "ESPN",
       "away": {
-        "id": "19",
-        "abbr": "nyg",
-        "slug": "new-york-giants",
-        "name": "NY Giants",
-        "nick": "Giants"
+        "id": "28",
+        "abbr": "wsh",
+        "slug": "washington-redskins",
+        "name": "Washington",
+        "nick": "Redskins",
+        "stadium": "FedExField"
       },
       "home": {
-        "id": "16",
-        "abbr": "min",
-        "slug": "minnesota-vikings",
-        "name": "Minnesota",
-        "nick": "Vikings"
+        "id": "12",
+        "abbr": "kc",
+        "slug": "kansas-city-chiefs",
+        "name": "Kansas City",
+        "nick": "Chiefs",
+        "stadium": "Arrowhead Stadium"
       }
     }
   ]
@@ -1385,7 +1434,7 @@
       "date": "2017-10-06",
       "matches": [
         {
-          "id": "64",
+          "id": "65",
           "timestamp": "Thu, 06 Oct 2017 20:25:00 -0400",
           "tv": "CBS",
           "away": {
