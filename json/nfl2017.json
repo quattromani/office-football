@@ -1374,27 +1374,6 @@
             "nick": "Broncos",
             "stadium": "Sports Authority Field at Mile High"
           }
-        },
-        {
-          "id": "63",
-          "timestamp": "Sun, 01 Oct 2017 20:30:00 -0400",
-          "tv": "NBC",
-          "away": {
-            "id": "11",
-            "abbr": "ind",
-            "slug": "indianapolis-colts",
-            "name": "Indianapolis",
-            "nick": "Colts",
-            "stadium": "Lucas Oil Stadium"
-          },
-          "home": {
-            "id": "26",
-            "abbr": "sea",
-            "slug": "seattle-seahawks",
-            "name": "Seattle",
-            "nick": "Seahawks",
-            "stadium": "CenturyLink Field"
-          }
         }
       ]
 },
@@ -1402,25 +1381,25 @@
   "date": "2017-10-02",
   "matches": [
     {
-      "id": "64",
+      "id": "63",
       "last": true,
       "timestamp": "Mon, 02 Oct 2017 20:30:00 -0400",
       "tv": "ESPN",
       "away": {
-        "id": "28",
-        "abbr": "wsh",
-        "slug": "washington-redskins",
-        "name": "Washington",
-        "nick": "Redskins",
-        "stadium": "FedExField"
+        "id": "11",
+        "abbr": "ind",
+        "slug": "indianapolis-colts",
+        "name": "Indianapolis",
+        "nick": "Colts",
+        "stadium": "Lucas Oil Stadium"
       },
       "home": {
-        "id": "12",
-        "abbr": "kc",
-        "slug": "kansas-city-chiefs",
-        "name": "Kansas City",
-        "nick": "Chiefs",
-        "stadium": "Arrowhead Stadium"
+        "id": "26",
+        "abbr": "sea",
+        "slug": "seattle-seahawks",
+        "name": "Seattle",
+        "nick": "Seahawks",
+        "stadium": "CenturyLink Field"
       }
     }
   ]
